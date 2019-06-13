@@ -3,6 +3,13 @@ body {
   padding-bottom: 15px;
   background: gray;
 }
+
+@media (max-width: 600px) {
+  body {
+    background: red;
+  }
+}
+
 #welcome-section {
   height: 100vh;
 }
@@ -28,10 +35,4 @@ a, a:visited {
   height: 700px;
   padding-top: 10px;
   font-size: 50px;
-}
-
-@media (max-width: 600px) {
-  body {
-    background: red;
-  }
 }
