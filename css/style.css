@@ -1,22 +1,53 @@
-body {
-  display: flex;
-  flex-direction: column;
-  font-family: 'arial', cursive;
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700');
+*{
+  margin:0;
+  padding:0;
+}
+html, body{
+  text-align: center;
+  background-color: #0000CD;
+  font-family: 'ariel';
+  max-width: 1500px;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-}
-
-nav ul {
-  text-align: right;
+#navbar{ 
   position: fixed;
-  width: 100%;
-  background-color: #F9FA9B;
+  top: 0;
+  width: 70%;
+  height: 10%;
+  padding-top: 0.5px;
+}
+
+nav ul{
+  list-style: none;
+  text-align: right;
+  }
+nav li a{
+  text-decoration: none;
+  color: black;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 1.3em;
+  font-weight: 700;
+  letter-spacing: 2px;
+  }
+li a:visited{
+  color: white;
+}
+nav ul li {
+  display: inline-block;
 }
 
 section { 
 	height: 100vh; 
 }
 
+@media (max-width: 600px) {
+    body {
+        background-color: lightblue;
+        margin-top: 15px;
+        width: 100%;
+        position: relative;
+    }
+}
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700');
