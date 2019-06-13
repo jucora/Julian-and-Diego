@@ -1,4 +1,22 @@
 body {
-	width: 800px;
-	height: 560px;
+  display: flex;
+  flex-direction: column;
+  font-family: 'arial', cursive;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  text-align: right;
+  position: fixed;
+  width: 100%;
+  background-color: #F9FA9B;
+}
+
+section { 
+	height: 100vh; 
+}
+
