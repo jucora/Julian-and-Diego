@@ -1,4 +1,6 @@
 body {
+  font-size: 30px;
+  color: #fff;
   text-align: center;
   padding-bottom: 15px;
   background: gray;
@@ -34,7 +36,7 @@ a, a:visited {
 #projects {
   height: 700px;
   padding-top: 10px;
-  font-size: 50px;
+  
 }
 
 img{
